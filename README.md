@@ -1,7 +1,7 @@
 # 💼 Portfolio App – Showcasing My Work & Skills as a Flutter Developer
 
 **Status:** 🚧 In Development – 2025
-**Repository:** [github.com/elsaramji/portfolio_app](https://github.com/elsaramji/portfolio_app)
+**Repository:** [github.com/elsaramji/portfolio_app](https://github.com/elsaramji/portfoilosr)
 **Live Demo:** Coming Soon!
 
 ---
@@ -94,7 +94,7 @@ This project follows a **TDD-first approach**, aiming for high reliability and c
 To run the project locally:
 
 ```bash
-git clone https://github.com/elsaramji/portfolio_app.git
+git clone https://github.com/elsaramji/portfoilosr.git
 cd portfolio_app
 flutter pub get
 flutter run
