@@ -1,7 +1,7 @@
 class ExperineceEntity {
   final String title;
-  final Map<String, String> company;
-  final List<String> technologies;
+  final Map<String, dynamic> company;
+  final List<dynamic> technologies;
   final String position;
   final String startDate;
   final String endDate;

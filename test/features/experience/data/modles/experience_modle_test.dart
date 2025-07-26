@@ -1,4 +1,7 @@
+import 'dart:convert';
+
 import 'package:flutter_test/flutter_test.dart';
+import 'package:portfoilosr/core/helper/fixture.dart';
 import 'package:portfoilosr/features/experience/data/models/experinece_model.dart';
 import 'package:portfoilosr/features/experience/domain/entities/experinece_entity.dart';
 
@@ -15,6 +18,14 @@ void main() {
         technologies: [],
       );
 
+      expect(model, isA<ExperineceEntity>());
+    });
+
+    test("test model from json", () {
+      final json = fixture('experineces_data');
+      final experienes = jsonDecode(json)["experiences"];
+      ExperineceModel model = ExperineceModel.fromJson(experienes[0]);
+      expect(model, isA<ExperineceModel>());
       expect(model, isA<ExperineceEntity>());
     });
   });
