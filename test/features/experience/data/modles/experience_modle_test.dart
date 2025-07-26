@@ -8,6 +8,8 @@ import 'package:portfoilosr/features/experience/domain/entities/experinece_entit
 void main() {
   group("test ExperienceModel ", () {
     test("test model as ExperienceEntity", () {
+
+      // assert
       ExperineceModel model = ExperineceModel(
         company: {"name": "name", "location": "location", "link": "link"},
         position: "position",
@@ -17,14 +19,17 @@ void main() {
         title: 'test title',
         technologies: [],
       );
-
+      // act
       expect(model, isA<ExperineceEntity>());
     });
 
     test("test model from json", () {
+      // arrange
       final json = fixture('experineces_data');
       final experienes = jsonDecode(json)["experiences"];
+      //assert
       ExperineceModel model = ExperineceModel.fromJson(experienes[0]);
+      // act
       expect(model, isA<ExperineceModel>());
       expect(model, isA<ExperineceEntity>());
     });
