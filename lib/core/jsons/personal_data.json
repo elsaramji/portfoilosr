@@ -1,0 +1,14 @@
+{
+  "firstName": "Mahmoud Ahmed",
+  "lastName": "Al-Saramji",
+  "headLine": "Mobile Developer (Flutter) | Scalable App Design, Clean Architecture & Firebase | CI/CD & API Integration",
+  "imagePath": "assets/images/profile.jpg",
+  "location": "Cairo, Egypt",
+  "phone": "01067478640",
+  "email": "mahmoudelsaramegy@gmail.com",
+  "about": "Mobile Developer with 3+ years of experience building scalable Flutter apps. Passionate about clean architecture, Firebase integration, and CI/CD pipelines. Known for mentoring junior devs and delivering responsive UI/UX.",
+  "socialLinks": {
+    "LinkedIn": "https://www.linkedin.com/in/mahmoud-el-seramji",
+    "GitHub": "https://github.com/elsaramji"
+  }
+}

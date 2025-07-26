@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Head of Mobile Development Team",
+        "company": {
+            "name": "Developer Student Clubs (DSC)",
+            "location": "Cairo, Egypt",
+            "link": "https://dsc-courses.vercel.app/"
+        },
+        "technologies": [
+            "Flutter",
+            "Dart",
+            "Firebase",
+            "Git",
+            "CI/CD",
+            "Riverpod",
+            "Provider"
+        ],
+        "position": "Mid Mobile Developer",
+        "startDate": "Mar 2025",
+        "endDate": "Present",
+        "description": "Delivered 10+ technical sessions and live coding workshops. Mentored junior developers in clean architecture and Firebase. Reviewed open-source app code and guided contributors. Organized developer events and promoted TDD, state management, and CI/CD."
+    }
+]
