@@ -1,53 +1,55 @@
-[
-  {
-    "title": "Doctor Doc",
-    "description": "A cross-platform mobile app for managing medical appointments and remote consultations. Designed with Clean Architecture, integrated RESTful APIs and Firebase Auth, and set up GitHub Actions for CI/CD. UI built in Figma with accessible responsive layouts.",
-    "image": "assets/images/projects/doctor_doc.png",
-    "links": [
-      "https://github.com/elsaramji/doctors_doc.git"
-    ],
-    "technologies": [
-      "Flutter",
-      "Dart",
-      "Firebase",
-      "REST API",
-      "GitHub Actions",
-      "FCM",
-      "Figma"
-    ]
-  },
-  {
-    "title": "PomoTasks",
-    "description": "A productivity app based on the Pomodoro method with real-time task tracking and session timing. Implemented cloud sync via Firebase and used Riverpod for state management. Focused on time-based UI/UX and structured testing with TDD.",
-    "image": "assets/images/projects/pomotasks.png",
-    "links": [
-      "https://github.com/elsaramji/pomotasks.git"
-    ],
-    "technologies": [
-      "Flutter",
-      "Dart",
-      "Firebase",
-      "Riverpod",
-      "TDD",
-      "Bloc",
-      "GitHub Actions",
-      "Figma"
-    ]
-  },
-  {
-    "title": "Fruits Store App",
-    "description": "An e-commerce app for fruit shopping with product browsing, cart, and checkout functionality. Integrated Firebase Realtime DB, Supabase, and payment APIs. Emphasized performance, reusable widgets, and responsive design.",
-    "image": "assets/images/projects/fruits_store.png",
-    "links": [
-      "https://github.com/elsaramji/store-hup.git"
-    ],
-    "technologies": [
-      "Flutter",
-      "Dart",
-      "Firebase",
-      "Supabase",
-      "Figma",
-      "Material Design"
-    ]
-  }
-]
+{
+  "projects": [
+    {
+      "title": "Doctor Doc",
+      "description": "A cross-platform mobile app for managing medical appointments and remote consultations. Designed with Clean Architecture, integrated RESTful APIs and Firebase Auth, and set up GitHub Actions for CI/CD. UI built in Figma with accessible responsive layouts.",
+      "image": "assets/images/projects/doctor_doc.png",
+      "links": [
+        "https://github.com/elsaramji/doctors_doc.git"
+      ],
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "REST API",
+        "GitHub Actions",
+        "FCM",
+        "Figma"
+      ]
+    },
+    {
+      "title": "PomoTasks",
+      "description": "A productivity app based on the Pomodoro method with real-time task tracking and session timing. Implemented cloud sync via Firebase and used Riverpod for state management. Focused on time-based UI/UX and structured testing with TDD.",
+      "image": "assets/images/projects/pomotasks.png",
+      "links": [
+        "https://github.com/elsaramji/pomotasks.git"
+      ],
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "Riverpod",
+        "TDD",
+        "Bloc",
+        "GitHub Actions",
+        "Figma"
+      ]
+    },
+    {
+      "title": "Fruits Store App",
+      "description": "An e-commerce app for fruit shopping with product browsing, cart, and checkout functionality. Integrated Firebase Realtime DB, Supabase, and payment APIs. Emphasized performance, reusable widgets, and responsive design.",
+      "image": "assets/images/projects/fruits_store.png",
+      "links": [
+        "https://github.com/elsaramji/store-hup.git"
+      ],
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "Supabase",
+        "Figma",
+        "Material Design"
+      ]
+    }
+  ]
+}

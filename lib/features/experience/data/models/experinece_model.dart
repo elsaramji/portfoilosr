@@ -15,7 +15,7 @@ class ExperineceModel extends ExperineceEntity {
       ExperineceModel(
         title: json["title"],
         company: json["company"],
-        technologies: List<String>.from(json["technologies"].map((x) => x)),
+        technologies: json["technologies"],
         position: json["position"],
         startDate: json["startDate"],
         endDate: json["endDate"],
