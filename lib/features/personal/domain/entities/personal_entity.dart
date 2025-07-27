@@ -7,7 +7,7 @@ class PersonalEntity {
   final String phone;
   final String email;
   final String about;
-  final Map<String, String> socialLinks;
+  final Map<String, dynamic> socialLinks;
 
   PersonalEntity({
     required this.firstName,
