@@ -1,80 +1,82 @@
-[
-  {
-    "title": "Frameworks & Languages",
-    "imagePath": "assets/icons/frameworks.png",
-    "technologies": [
-      "Dart",
-      "Flutter",
-      "JavaScript (ES6)",
-      "Swift (basic)",
-      "Kotlin (basic)"
-    ]
-  },
-  {
-    "title": "State Management",
-    "imagePath": "assets/icons/state_management.png",
-    "technologies": [
-      "Riverpod",
-      "Provider",
-      "BLoC (Cubit)"
-    ]
-  },
-  {
-    "title": "Backend & APIs",
-    "imagePath": "assets/icons/backend.png",
-    "technologies": [
-      "RESTful APIs",
-      "Firebase (Auth, Firestore, Realtime DB, Storage, FCM)",
-      "Supabase",
-      "Firebase Cloud Functions"
-    ]
-  },
-  {
-    "title": "UI/UX & Tools",
-    "imagePath": "assets/icons/uiux.png",
-    "technologies": [
-      "Figma",
-      "Material Design",
-      "Responsive Layouts",
-      "Animations",
-      "Accessibility"
-    ]
-  },
-  {
-    "title": "DevOps & Deployment",
-    "imagePath": "assets/icons/devops.png",
-    "technologies": [
-      "Git",
-      "GitHub",
-      "GitLab",
-      "CI/CD",
-      "GitHub Actions",
-      "Flavors",
-      "Firebase Hosting",
-      "Play Store / App Store Publishing"
-    ]
-  },
-  {
-    "title": "Architecture & Testing",
-    "imagePath": "assets/icons/architecture.png",
-    "technologies": [
-      "Clean Architecture",
-      "Modular Design",
-      "MVVM",
-      "SOLID Principles",
-      "TDD",
-      "Unit Testing",
-      "Integration Testing"
-    ]
-  },
-  {
-    "title": "Security & Auth",
-    "imagePath": "assets/icons/security.png",
-    "technologies": [
-      "OAuth 2.0",
-      "Access & Refresh Tokens",
-      "Secure API Communication",
-      "Basic Load Balancing"
-    ]
-  }
-]
+{
+  "technical_skills": [
+    {
+      "title": "Frameworks & Languages",
+      "imagePath": "assets/icons/frameworks.png",
+      "technologies": [
+        "Dart",
+        "Flutter",
+        "JavaScript (ES6)",
+        "Swift (basic)",
+        "Kotlin (basic)"
+      ]
+    },
+    {
+      "title": "State Management",
+      "imagePath": "assets/icons/state_management.png",
+      "technologies": [
+        "Riverpod",
+        "Provider",
+        "BLoC (Cubit)"
+      ]
+    },
+    {
+      "title": "Backend & APIs",
+      "imagePath": "assets/icons/backend.png",
+      "technologies": [
+        "RESTful APIs",
+        "Firebase (Auth, Firestore, Realtime DB, Storage, FCM)",
+        "Supabase",
+        "Firebase Cloud Functions"
+      ]
+    },
+    {
+      "title": "UI/UX & Tools",
+      "imagePath": "assets/icons/uiux.png",
+      "technologies": [
+        "Figma",
+        "Material Design",
+        "Responsive Layouts",
+        "Animations",
+        "Accessibility"
+      ]
+    },
+    {
+      "title": "DevOps & Deployment",
+      "imagePath": "assets/icons/devops.png",
+      "technologies": [
+        "Git",
+        "GitHub",
+        "GitLab",
+        "CI/CD",
+        "GitHub Actions",
+        "Flavors",
+        "Firebase Hosting",
+        "Play Store / App Store Publishing"
+      ]
+    },
+    {
+      "title": "Architecture & Testing",
+      "imagePath": "assets/icons/architecture.png",
+      "technologies": [
+        "Clean Architecture",
+        "Modular Design",
+        "MVVM",
+        "SOLID Principles",
+        "TDD",
+        "Unit Testing",
+        "Integration Testing"
+      ]
+    },
+    {
+      "title": "Security & Auth",
+      "imagePath": "assets/icons/security.png",
+      "technologies": [
+        "OAuth 2.0",
+        "Access & Refresh Tokens",
+        "Secure API Communication",
+        "Basic Load Balancing"
+      ]
+    }
+  ]
+}

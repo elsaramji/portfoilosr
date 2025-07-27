@@ -1,7 +1,7 @@
 class TechSkillsEntity {
   final String title;
   final String imagePath;
-  final List<String> technologies;
+  final List<dynamic> technologies;
 
   TechSkillsEntity({
     required this.title,
