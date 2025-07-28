@@ -6,11 +6,11 @@ import 'package:portfoilosr/features/experience/data/models/experinece_model.dar
 import 'package:portfoilosr/features/experience/domain/entities/experinece_entity.dart';
 
 void main() {
-  group("test ExperienceModel ", () {
-    test("test model as ExperienceEntity", () {
+  group("test result of data as ExperineceModel and ExperineceEntity ", () {
+    test("test model result as ExperienceEntity", () {
 
-      // assert
-      ExperineceModel model = ExperineceModel(
+     //act
+      ExperineceModel result = ExperineceModel(
         company: {"name": "name", "location": "location", "link": "link"},
         position: "position",
         startDate: "startDate",
@@ -19,19 +19,19 @@ void main() {
         title: 'test title',
         technologies: [],
       );
-      // act
-      expect(model, isA<ExperineceEntity>());
+      //assert      
+      expect(result, isA<ExperineceEntity>());
     });
 
-    test("test model from json", () {
+    test("test result from json as ExperineceModel and ExperineceEntity", () {
       // arrange
       final json = fixture('experineces_data');
       final experienes = jsonDecode(json)["experiences"];
-      //assert
-      ExperineceModel model = ExperineceModel.fromJson(experienes[0]);
-      // act
-      expect(model, isA<ExperineceModel>());
-      expect(model, isA<ExperineceEntity>());
+      //act
+      ExperineceModel result = ExperineceModel.fromJson(experienes[0]);
+      // assert
+      expect(result, isA<ExperineceModel>());
+      expect(result, isA<ExperineceEntity>());
     });
   });
 }

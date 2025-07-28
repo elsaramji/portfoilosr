@@ -6,10 +6,10 @@ import 'package:portfoilosr/features/projects/data/models/projects_model.dart';
 import 'package:portfoilosr/features/projects/domain/entity/projects_entity.dart';
 
 void main() {
-  group('test projects model', () {
-    test("test model as ProjectsEntity", () {
-      // assert
-      ProjectsModel model = ProjectsModel(
+  group('test result of data as ProjectsModel and ProjectsEntity', () {
+    test("test result as ProjectsEntity", () {
+      // act
+      ProjectsModel result = ProjectsModel(
         title: '',
         description: '',
         image: '',
@@ -17,19 +17,19 @@ void main() {
         technologies: [],
       );
 
-      // act
-      expect(model, isA<ProjectsEntity>());
+      // assert
+      expect(result, isA<ProjectsEntity>());
     });
 
-    test("test model from json", () {
+    test("test result from json as ProjectsModel and ProjectsEntity", () {
       // arrange
       final json = fixture('projects_data');
       final projects = jsonDecode(json)['projects'];
-      // assert
-      ProjectsModel model = ProjectsModel.fromJson(projects[0]);
       // act
-      expect(model, isA<ProjectsModel>());
-      expect(model, isA<ProjectsEntity>());
+      ProjectsModel result = ProjectsModel.fromJson(projects[0]);
+      // assert
+      expect(result, isA<ProjectsModel>());
+      expect(result, isA<ProjectsEntity>());
     });
   });
 }
